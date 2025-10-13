@@ -1,0 +1,1 @@
+import{aN as o}from"./BoLQ9Xhu.js";const a=a=>o({url:"user/coupon/getList",method:"get",params:a}),s=a=>o({url:"user/coupon/list",method:"get",params:a}),t=a=>o({url:"user/coupon/claim",method:"post",data:a}),e=a=>o({url:"user/coupon/del",method:"post",data:a}),r=a=>o({url:"user/coupon/detail",method:"get",params:{id:a}});export{t as a,r as b,s as c,e as d,a as g};

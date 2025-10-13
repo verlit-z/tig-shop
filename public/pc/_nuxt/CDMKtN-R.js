@@ -1,0 +1,1 @@
+import{aN as a}from"./BoLQ9Xhu.js";const e=e=>a({url:"user/aftersales/getRecord",method:"get",params:e}),s=e=>a({url:"user/aftersales/detail",method:"get",params:e}),t=e=>a({url:"user/aftersales/feedback",method:"post",data:e}),r=e=>a({url:"user/aftersales/cancel",method:"post",data:e});export{s as a,r as c,e as g,t as u};

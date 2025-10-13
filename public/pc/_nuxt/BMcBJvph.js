@@ -1,0 +1,1 @@
+import{aN as t}from"./BoLQ9Xhu.js";const s=()=>t({url:"install/index?step=1",method:"get"}),e=()=>t({url:"install/index?step=2",method:"get"}),a=s=>t({url:"install/index?step=3",method:"post",data:s});export{e as a,s as g,a as u};
