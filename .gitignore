@@ -22,3 +22,4 @@ runtime/index/*
 LICENSE.txt
 /public/nginx.htaccess
 composer.lock
+/docker
