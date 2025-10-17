@@ -151,7 +151,7 @@ class Request extends \think\Request
             }
         }
 
-        $data = $this->filterData($data, $filter, $name, $default);
+        $data = $this->filterData($data, $filter, $name, $default, '');
 
         if (isset($type) && $data !== $default) {
             // 强制类型转换
