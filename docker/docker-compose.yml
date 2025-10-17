@@ -6,7 +6,7 @@ services:
     volumes:
       - ..:/var/www/html
       - ./php/log:/var/log/php
-    working_dir: /var/www/html/public
+    working_dir: /var/www/html
     ports:
       - "9000:9000"
   nginx:
