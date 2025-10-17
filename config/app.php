@@ -49,7 +49,9 @@ return [
         'http://192.168.5.111:3000',
         'http://192.168.5.90:5173',
         'http://192.168.5.90:5174',
-        'http://192.168,5.79:5173'
+        'http://192.168,5.79:5173',
+	'http://127.0.0.1',
+	'http://localhost',
     ],
     'kf'    =>  [
         'yzf_url' => 'https://yzf.qq.com/xv/web/static/chat/index.html?sign=',//腾讯云智服
