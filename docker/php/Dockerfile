@@ -21,6 +21,9 @@ RUN apt-get update && apt-get install -y \
     && pecl install swoole \
     && docker-php-ext-enable swoole
 
+# 安装redis
+RUN pecl install redis && docker-php-ext-enable redis
+
 # 设置工作目录
 WORKDIR /var/www/html
 
